@@ -1,0 +1,32 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients":[
+    {
+      "item" : "enderore:enderdust"
+    },
+    {
+      "item" : "enderore:enderdust"
+    },
+    {
+      "item" : "enderore:enderdust"
+    },
+    {
+      "item" : "enderore:enderdust"
+    },
+    {
+      "item" : "enderore:enderite"
+    },
+    {
+      "item" : "enderore:enderite"
+    },
+    {
+      "item" : "enderore:enderite"
+    },
+    {
+      "item" : "enderore:enderite"
+    }],
+  "result" : {
+    "item" : "enderore:emptalloy_ingot"
+  }
+}

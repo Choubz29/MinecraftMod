@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item" : "enderore:enderite"
+    }
+  },
+  "result" : {
+    "item" : "enderore:enderite_block"
+  }
+}

@@ -1,6 +1,7 @@
 package net.vhoubz.enderore;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -11,19 +12,24 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.vhoubz.enderore.block.ModBlocks;
+import net.vhoubz.enderore.item.ModCreativeModeTabs;
+import net.vhoubz.enderore.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(EnderOre.MOD_ID)
 public class EnderOre {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "enderore";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
     public EnderOre()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -39,6 +45,7 @@ public class EnderOre {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event){
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

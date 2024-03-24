@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern" : [
+    "#T#",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item" : "minecraft:diamond"
+    },
+    "D" : {
+      "item" : "minecraft:end_stone"
+    },
+    "T" : {
+      "item" : "enderore:emptalloy_upgrade"
+    }
+  },
+  "result" : {
+    "item" : "enderore:emptalloy_upgrade",
+    "count" : 2
+  }
+}

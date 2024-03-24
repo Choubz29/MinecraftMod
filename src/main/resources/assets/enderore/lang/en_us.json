@@ -1,0 +1,11 @@
+{
+  "item.enderore.enderdust" : "Ender Dust",
+  "item.enderore.emptalloy_upgrade" : "Emptalloy Ugrade",
+  "item.enderore.emptalloy_ingot" : "Emptalloy Ingot",
+  "item.enderore.enderite" : "Enderite",
+
+  "block.enderore.enderite_ore" : "Enderite Ore",
+  "block.enderore.enderite_block" : "Enderite Block",
+
+  "creativetab.enderore_tab" : "Ender Ore"
+}

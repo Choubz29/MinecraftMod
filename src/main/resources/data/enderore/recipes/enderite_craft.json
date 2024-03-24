@@ -1,0 +1,12 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients":[
+  {
+    "item" : "enderore:enderite_block"
+  }],
+  "result" : {
+    "item" : "enderore:enderite",
+    "count" : 9
+  }
+}
