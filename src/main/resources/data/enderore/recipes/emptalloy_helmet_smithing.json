@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderore:emptalloy_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "enderore:emptalloy_helmet"
+  },
+  "template": {
+    "item": "enderore:emptalloy_upgrade"
+  }
+}

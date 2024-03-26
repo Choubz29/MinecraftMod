@@ -22,6 +22,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.ENDERITE.get());
                         pOutput.accept(ModItems.EMPTALLOY_UPGRADE.get());
                         pOutput.accept(ModItems.EMPTALLOY_INGOT.get());
+                        pOutput.accept(ModItems.EMPTALLOY_HELMET.get());
+                        pOutput.accept(ModItems.EMPTALLOY_CHESTPLATE.get());
+                        pOutput.accept(ModItems.EMPTALLOY_LEGGINGS.get());
+                        pOutput.accept(ModItems.EMPTALLOY_BOOTS.get());
 
                         pOutput.accept(ModBlocks.ENDERITE_ORE.get());
                         pOutput.accept(ModBlocks.ENDERITE_BLOCK.get());

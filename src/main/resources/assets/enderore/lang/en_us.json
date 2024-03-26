@@ -4,8 +4,21 @@
   "item.enderore.emptalloy_ingot" : "Emptalloy Ingot",
   "item.enderore.enderite" : "Enderite",
 
+  "item.enderore.emptalloy_helmet" : "Emptalloy helmet",
+  "item.enderore.emptalloy_chestplate" : "Emptalloy chestplate",
+  "item.enderore.emptalloy_leggings" : "Emptalloy leggings",
+  "item.enderore.emptalloy_boots" : "Emptalloy boots",
+
   "block.enderore.enderite_ore" : "Enderite Ore",
   "block.enderore.enderite_block" : "Enderite Block",
 
-  "creativetab.enderore_tab" : "Ender Ore"
+  "creativetab.enderore_tab" : "Ender Ore",
+
+
+  "item.minecraft.smithing_template.emptalloy_upgrade.additions_slot_description": "Add Emptalloy Ingot",
+  "item.minecraft.smithing_template.emptalloy_upgrade.applies_to": "Netherite Equipment",
+  "item.minecraft.smithing_template.emptalloy_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.minecraft.smithing_template.emptalloy_upgrade.ingredients": "Emptalloy Ingot",
+
+  "upgrade.minecraft.emptalloy_upgrade": "Emptalloy Upgrade"
 }

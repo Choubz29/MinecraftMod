@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderore:emptalloy_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "enderore:emptalloy_leggings"
+  },
+  "template": {
+    "item": "enderore:emptalloy_upgrade"
+  }
+}

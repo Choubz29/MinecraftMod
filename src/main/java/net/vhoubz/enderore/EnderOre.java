@@ -2,6 +2,7 @@ package net.vhoubz.enderore;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.SmithingTemplateItem;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -17,8 +18,8 @@ import net.vhoubz.enderore.item.ModCreativeModeTabs;
 import net.vhoubz.enderore.item.ModItems;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(EnderOre.MOD_ID)
+// The value here should match an entry in the META-INF/mods.toml file
 public class EnderOre {
     public static final String MOD_ID = "enderore";
     private static final Logger LOGGER = LogUtils.getLogger();

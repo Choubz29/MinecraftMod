@@ -1,0 +1,16 @@
+{
+  "item.enderore.enderdust" : "Poudre De l'end",
+  "item.enderore.emptalloy_upgrade" : "Amélioration en vidalliage",
+  "item.enderore.emptalloy_ingot" : "Lingot De vidaliage",
+  "item.enderore.enderite" : "Enderite",
+
+  "item.enderore.emptalloy_helmet" : "Casque en vidalliage",
+  "item.enderore.emptalloy_chestplate" : "Plastron en vidalliage",
+  "item.enderore.emptalloy_leggings" : "Pantalon en vidalliage",
+  "item.enderore.emptalloy_boots" : "Botte en vidalliage",
+
+  "block.enderore.enderite_ore" : "Minerais d'enderite",
+  "block.enderore.enderite_block" : " Block d'enderite",
+
+  "creativetab.enderore_tab" : "Ender Ore"
+}
